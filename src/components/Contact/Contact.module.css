@@ -1,7 +1,7 @@
 .ContactElement {
   display: flex;
   flex-direction: row;
-  width: 300px;
+  max-width: 360px;
   border: 1px solid #2a2a2a;
   border-radius: 6px;
   padding: 8px;

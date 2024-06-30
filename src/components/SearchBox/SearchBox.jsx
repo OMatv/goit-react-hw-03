@@ -8,7 +8,7 @@ export default function SearchBox({ filter, onFilterChange }) {
         type="text"
         value={filter}
         onChange={onFilterChange}
-        placeholder="Search contacts..."
+        placeholder=""
       />
     </div>
   );
