@@ -25,8 +25,8 @@ export default function App() {
     setContacts(contacts.filter((contact) => contact.id !== contactId));
   };
 
-  const handleFilterChange = (filterValue) => {
-    setFilter(filterValue);
+  const handleFilterChange = (event) => {
+    setFilter(event.target.value);
   };
 
   const getFilteredContacts = () => {
